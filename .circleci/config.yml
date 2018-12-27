@@ -15,4 +15,5 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm test
+      - run: 
+          command: mocha test --reporter mocha-junit-reporter

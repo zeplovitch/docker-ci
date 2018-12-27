@@ -4,9 +4,6 @@
   "main": "app.js",
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "test": "mocha.js"
-  },
   "dependencies": {
     "eslint": "^5.11.1",
     "express": "^4.16.4",
