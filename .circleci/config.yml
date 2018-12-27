@@ -17,5 +17,5 @@ jobs:
       - run: npm install
       - run: 
           name: npm test
-          command: ./node_modules/.bin/mocha --recursive --timeout=10000 --exit --reporter mocha-junit-reporter --reporter-options mochaFile=reports/mocha/test-results.xml
+          command: ./node_modules/.bin/mocha 
           when: always
