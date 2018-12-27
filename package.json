@@ -15,5 +15,16 @@
     "test": "test"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "lets see ...",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeplovitch/docker-ci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeplovitch/docker-ci/issues"
+  },
+  "homepage": "https://github.com/zeplovitch/docker-ci#readme"
 }
