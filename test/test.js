@@ -1,8 +1,12 @@
-var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', '',function(){
-      assert.equal(-1, [1,2,3].indexOf(4));
+'use strict';
+
+var request = require("supertest"),
+app = require("../app").getApp;
+
+describe('GET /',function(){
+    it('expects HTTP response 200', function(done){
+        request(app)
+        .get('/')
+        .expect(200,done);
     });
-  });
 });
