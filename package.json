@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha.js"
+    "test": "mocha.js"
   },
   "dependencies": {
     "eslint": "^5.11.1",
