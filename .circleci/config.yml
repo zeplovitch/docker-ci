@@ -16,6 +16,5 @@ jobs:
       - checkout
       - run: npm install
       - run: 
-          name: npm test
-          command: ./node_modules/.bin/mocha 
-          when: always
+          name:  test
+          command: npm test
