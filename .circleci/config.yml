@@ -37,6 +37,6 @@ jobs:
       - run: echo "before test" 
       - run: npm test
       - run: echo "after test"   
-      - run: echo "export $CIRCLE_PROJECT_USERNAME"
+      - run: echo "export    $CIRCLE_PROJECT_USERNAME   $AWS_SECRET"
 
 
