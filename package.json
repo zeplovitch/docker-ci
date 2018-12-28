@@ -17,7 +17,7 @@
   "devDependencies": {},
   "description": "lets see ...",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit",
     "start":"node app.js"
   },
   "repository": {
