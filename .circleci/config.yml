@@ -37,5 +37,6 @@ jobs:
       - run: echo "before test" 
       - run: npm test
       - run: echo "after test"   
+      - run: echo "export $AWSAccessKey"
 
 
