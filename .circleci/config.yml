@@ -36,6 +36,7 @@ jobs:
       # run tests!
       - run: echo "before test 1" 
       - run: npm test
+      - run: npm test2
       - run: echo "after test 2"   
       - run: curl -H "Content-Type:application/json" -d '{"build":true}' -X POST https://cloud.docker.com/api/build/v1/source/6158f640-5de4-4836-a887-a08ad6fd5494/trigger/c8b38371-f02e-484c-913c-bcd2265e8741/call/
       - run: echo "after call with  curl"   
