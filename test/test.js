@@ -9,4 +9,5 @@ describe('GET /',function(){
         .get('/')
         .expect(200,done);
     });
+    done();
 });
