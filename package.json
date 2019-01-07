@@ -17,7 +17,7 @@
   "devDependencies": {},
   "description": "lets see ...",
   "scripts": {
-    "test": "find ./test  -name '*.js' | xargs mocha -R spec",
+    "test": "find ./test  -name '*.js' | xargs mocha --exit -R spec",
     "start": "node app.js"
   },
   "repository": {
